@@ -9,11 +9,13 @@ nav::after{
 nav{
     position: relative;
     z-index: 9999;
-    background-color: aqua;
-    
+    background-color:#ffff;
 }
 
 header{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
     width: 100%;
     display: flex;
@@ -21,7 +23,7 @@ header{
     align-items: center;
     flex-direction: column;
     margin-top: 70px;
-    height:90vh;
+    height:90.3vh;
     background-color: bisque;
 }
 
@@ -31,16 +33,19 @@ header .container h1{
     font-weight: 700;
     font-size: 45px;
     line-height: 55px;
+    color: white;
 }
 header .container p{
-    color: rgb(118, 151, 179);
+    color: rgb(184, 184, 184);
     font-size: 20px;
     font-weight: 600;
     width: 65%;
 }
 header .container a{
     color: aliceblue;
-    padding: 20px;
+    padding: 25px 40px 25px 40px;
+    margin-top: 30px;
+    background-color: rgb(251, 113, 0);
 }
 
 header .container a:hover{
