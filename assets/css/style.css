@@ -1,3 +1,7 @@
+
+html {
+    scroll-behavior: smooth;
+}  
 nav::after{
    content: '';
    width: 100%;
@@ -49,7 +53,58 @@ header .container a{
 }
 
 header .container a:hover{
-    background-color: rgb(153, 184, 222) !important;
+    background-color: rgb(190, 190, 190) !important;
+}
 
+
+.About p{
+    width: 60%;
+    padding: 20px 0 20px 0;
+    color: rgb(202, 202, 202);
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.About h2{
+    padding-top: 100px !important;
+    color: #ffff;
+
+}
+ 
+.About a{
+    color: black;
+    padding: 25px 40px 25px 40px;
+    margin-top: 30px;
+    background-color: rgb(251, 113, 0);
+}
+
+.About a:hover{
+    background-color: rgb(190, 190, 190) !important;
+}
+
+.About{
+    background-color: rgb(251, 113, 0);
+}
+
+.box-service p{
+    width: 70%;
+}
+.Services h3{
+    padding: 200px 0 90px 0;
+
+}
+
+.box-service i{
+    font-size: 30px;
+    color:rgb(251, 113, 0) ;
+    padding-bottom: 20px;
+
+}
+
+.box-service p{
+
+    color: rgb(131, 128, 128);
+    font-weight: 400;
 }
 

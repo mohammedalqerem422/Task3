@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/vendor/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
 
 </head>
 <body>
@@ -13,14 +14,14 @@
       <nav class=" d-flex justify-content-around align-items-center gap-xxl-5 navbar navbar-expand-lg fixed-top  " >
         <a class="d-flex justify-content-center align-items-center  text-decoration-none" href="#">Start Bootstrap</a>
         <ul class="d-flex justify-content-center align-items-center gap-lg-5 list-unstyled mt-3 " >
-          <li><a class="text-decoration-none"  href="#">About</a> </li>
-          <li> <a class="text-decoration-none" href="#">Services</a></li>
+          <li><a class="text-decoration-none"  href="#about">About</a> </li>
+          <li> <a class="text-decoration-none" href="#services">Services</a></li>
           <li><a class="text-decoration-none" href="#">Portfolio</a></li>
           <li><a class="text-decoration-none" href="#">Contact</a></li>
         </ul>
       </nav>
 
-    <header class="overlay top-0 bottom-0 left-0 right-0 bg-black opacity-75">
+    <header>
 
       <div class="container d-flex justify-content-center align-items-center flex-column text-center">
         <h1>Your Favorite Place for Free Bootstrap Themes</h1>
@@ -33,8 +34,46 @@
 
     <main>
 
-    <section>
+    <section id="about" class="About  d-flex justify-content-center align-items-center flex-column p-lg-5 text-xl-center">
+      <h2>We've got what you need!</h2>
+       <p>Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!
+       </p>
+       <a class="text-decoration-none rounded-pill bg-light " href="#">GET STARTED!</a>
   
+    </section>
+
+    <section id="services" class="Services container d-flex justify-content-center align-items-center flex-column">
+      <h3>At Your Services</h3>
+       <div class="box-services d-flex justify-content-center align-items-center gap-5 flex-wrap pt-lg-5 pb-lg-5">
+          <div class="box-service text-center d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-regular fa-gem"></i>
+            <h4>Sturdy Themes</h4>
+            <p> Our themes are updated regularly to keep them bug free!</p>
+
+
+          </div>
+          <div class="box-service text-center d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-laptop"></i>
+            <h4>Up to Date</h4>
+            <p> All dependencies are kept current to keep things fresh.</p>
+
+
+          </div>
+          <div class="box-service text-center d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-solid fa-globe"></i>
+            <h4>Ready to Publish</h4>
+            <p>You can use this design as is, or you can make changes!</p>
+
+
+          </div>
+          <div class="box-service text-center d-flex justify-content-center align-items-center flex-column">
+            <i class="fa-regular fa-heart"></i>
+            <h4>Made with Love</h4>
+            <p> Is it really open source if it's not made with love?</p>
+
+            
+
+       </div>
     </section>
 
     </main>
